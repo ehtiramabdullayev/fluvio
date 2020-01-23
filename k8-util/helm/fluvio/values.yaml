@@ -10,7 +10,7 @@ scLog: info
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
-
+imagePolicy:  IfNotPresent
 serviceAccount:
   # Specifies whether a service account should be created
   create: true

@@ -44,6 +44,8 @@ release_image:	all_image
 
 develop_image:	VERSION=$(shell git log -1 --pretty=format:"%H")
 develop_image: 	all_image
+develop_image:	CARGO_BUILD=build
+develop_image:	BIN_NAME=debug
 
 local_image:	develop_image
 local_image:	DOCKER_REGISTRY=localhost:5000/infinyon

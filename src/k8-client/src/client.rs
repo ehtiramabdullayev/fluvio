@@ -113,6 +113,7 @@ fn stream<S>(client: &HttpClient, uri: Uri) -> impl Stream<Item = TokenStreamRes
         let result: Result<K8Watch<S, S::Status>, serde_json::Error> = 
             serde_json::from_slice(&chunk).map_err(|err| {
                 error!("parsing error: {}", err);
+                error!("error raw stream {}", String::from_utf8_lossy(&chunk).to_string());
                 err
             });
         Ok(vec![match result {
