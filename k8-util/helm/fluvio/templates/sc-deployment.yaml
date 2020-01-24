@@ -5,6 +5,7 @@ metadata:
   labels:
     app: flv-sc
 spec:
+  serviceAccountName: {{ .Values.serviceAccount.name }}
   containers:
     - name: flv-sc
       image: {{ .Values.registry }}/fluvio-sc:{{ .Values.fluvioVersion }}
