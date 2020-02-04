@@ -1,11 +1,10 @@
 [package]
 name = "kf-protocol-core"
 edition = "2018"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Fluvio Contributors <team@fluvio.io>"]
-description = "endoder and decoder for Kafka protocol"
+description = "encoder and decoder for Kafka protocol"
 repository = "https://github.com/infinyon/fluvio"
-readme = "README.md"
 license = "Apache-2.0"
 categories = ["encoding"]
 
