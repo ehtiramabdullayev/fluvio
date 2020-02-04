@@ -7,7 +7,7 @@ description = "endoder and decoder for Kafka protocol"
 repository = "https://github.com/infinyon/fluvio"
 readme = "README.md"
 license = "Apache-2.0"
-categories = ["kafka"]
+categories = ["encoding"]
 
 
 [dependencies]
