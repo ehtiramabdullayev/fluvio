@@ -1,11 +1,14 @@
-# procedure macro library
+# kf-protocol-derive
 
-## Debugging
+Procedure macro to encode/decode rust structure/enum using kafka protocol
 
-Install 'cargo expand' from
-https://github.com/dtolnay/cargo-expand
 
-To debug macro:
-```cargo expand --test varint```
+## License
 
-This will generate expansion of macro
+This project is licensed under the [Apache license](LICENSE-APACHE).
+
+### Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in Fluvio by you, shall be licensed as Apache, without any additional
+terms or conditions.
