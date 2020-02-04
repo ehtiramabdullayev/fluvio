@@ -1329,14 +1329,13 @@ dependencies = [
 
 [[package]]
 name = "kf-protocol-core"
-version = "0.2.1"
+version = "0.1.0"
 dependencies = [
  "bytes 0.5.4",
  "log",
  "num-derive",
  "num-traits",
  "serde",
- "utils",
 ]
 
 [[package]]
